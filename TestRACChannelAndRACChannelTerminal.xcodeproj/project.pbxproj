@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE9B2602133FD3600FA6B39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B25F2133FD3600FA6B39 /* AppDelegate.m */; };
+		5AE9B2632133FD3600FA6B39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B2622133FD3600FA6B39 /* ViewController.m */; };
+		5AE9B2662133FD3600FA6B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE9B2642133FD3600FA6B39 /* Main.storyboard */; };
+		5AE9B2682133FD3700FA6B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE9B2672133FD3700FA6B39 /* Assets.xcassets */; };
+		5AE9B26B2133FD3700FA6B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE9B2692133FD3700FA6B39 /* LaunchScreen.storyboard */; };
+		5AE9B26E2133FD3700FA6B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B26D2133FD3700FA6B39 /* main.m */; };
+		5AE9B2782133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B2772133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m */; };
+		5AE9B2832133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B2822133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE9B2742133FD3800FA6B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE9B2532133FD3600FA6B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE9B25A2133FD3600FA6B39;
+			remoteInfo = TestRACChannelAndRACChannelTerminal;
+		};
+		5AE9B27F2133FD3800FA6B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE9B2532133FD3600FA6B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE9B25A2133FD3600FA6B39;
+			remoteInfo = TestRACChannelAndRACChannelTerminal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AE9B25B2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRACChannelAndRACChannelTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE9B25E2133FD3600FA6B39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AE9B25F2133FD3600FA6B39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AE9B2612133FD3600FA6B39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AE9B2622133FD3600FA6B39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AE9B2652133FD3600FA6B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE9B2672133FD3700FA6B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE9B26A2133FD3700FA6B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AE9B26C2133FD3700FA6B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE9B26D2133FD3700FA6B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AE9B2732133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRACChannelAndRACChannelTerminalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE9B2772133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACChannelAndRACChannelTerminalTests.m; sourceTree = "<group>"; };
+		5AE9B2792133FD3800FA6B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE9B27E2133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRACChannelAndRACChannelTerminalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE9B2822133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACChannelAndRACChannelTerminalUITests.m; sourceTree = "<group>"; };
+		5AE9B2842133FD3800FA6B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE9B2582133FD3600FA6B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE9B2702133FD3800FA6B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE9B27B2133FD3800FA6B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE9B2522133FD3600FA6B39 = {
+			isa = PBXGroup;
+			children = (
+				5AE9B25D2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal */,
+				5AE9B2762133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests */,
+				5AE9B2812133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests */,
+				5AE9B25C2133FD3600FA6B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE9B25C2133FD3600FA6B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE9B25B2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal.app */,
+				5AE9B2732133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.xctest */,
+				5AE9B27E2133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE9B25D2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal */ = {
+			isa = PBXGroup;
+			children = (
+				5AE9B25E2133FD3600FA6B39 /* AppDelegate.h */,
+				5AE9B25F2133FD3600FA6B39 /* AppDelegate.m */,
+				5AE9B2612133FD3600FA6B39 /* ViewController.h */,
+				5AE9B2622133FD3600FA6B39 /* ViewController.m */,
+				5AE9B2642133FD3600FA6B39 /* Main.storyboard */,
+				5AE9B2672133FD3700FA6B39 /* Assets.xcassets */,
+				5AE9B2692133FD3700FA6B39 /* LaunchScreen.storyboard */,
+				5AE9B26C2133FD3700FA6B39 /* Info.plist */,
+				5AE9B26D2133FD3700FA6B39 /* main.m */,
+			);
+			path = TestRACChannelAndRACChannelTerminal;
+			sourceTree = "<group>";
+		};
+		5AE9B2762133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE9B2772133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m */,
+				5AE9B2792133FD3800FA6B39 /* Info.plist */,
+			);
+			path = TestRACChannelAndRACChannelTerminalTests;
+			sourceTree = "<group>";
+		};
+		5AE9B2812133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE9B2822133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m */,
+				5AE9B2842133FD3800FA6B39 /* Info.plist */,
+			);
+			path = TestRACChannelAndRACChannelTerminalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE9B25A2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE9B2872133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminal" */;
+			buildPhases = (
+				5AE9B2572133FD3600FA6B39 /* Sources */,
+				5AE9B2582133FD3600FA6B39 /* Frameworks */,
+				5AE9B2592133FD3600FA6B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestRACChannelAndRACChannelTerminal;
+			productName = TestRACChannelAndRACChannelTerminal;
+			productReference = 5AE9B25B2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE9B2722133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE9B28A2133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminalTests" */;
+			buildPhases = (
+				5AE9B26F2133FD3800FA6B39 /* Sources */,
+				5AE9B2702133FD3800FA6B39 /* Frameworks */,
+				5AE9B2712133FD3800FA6B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE9B2752133FD3800FA6B39 /* PBXTargetDependency */,
+			);
+			name = TestRACChannelAndRACChannelTerminalTests;
+			productName = TestRACChannelAndRACChannelTerminalTests;
+			productReference = 5AE9B2732133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE9B27D2133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE9B28D2133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminalUITests" */;
+			buildPhases = (
+				5AE9B27A2133FD3800FA6B39 /* Sources */,
+				5AE9B27B2133FD3800FA6B39 /* Frameworks */,
+				5AE9B27C2133FD3800FA6B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE9B2802133FD3800FA6B39 /* PBXTargetDependency */,
+			);
+			name = TestRACChannelAndRACChannelTerminalUITests;
+			productName = TestRACChannelAndRACChannelTerminalUITests;
+			productReference = 5AE9B27E2133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE9B2532133FD3600FA6B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ys;
+				TargetAttributes = {
+					5AE9B25A2133FD3600FA6B39 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5AE9B2722133FD3800FA6B39 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5AE9B25A2133FD3600FA6B39;
+					};
+					5AE9B27D2133FD3800FA6B39 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5AE9B25A2133FD3600FA6B39;
+					};
+				};
+			};
+			buildConfigurationList = 5AE9B2562133FD3600FA6B39 /* Build configuration list for PBXProject "TestRACChannelAndRACChannelTerminal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE9B2522133FD3600FA6B39;
+			productRefGroup = 5AE9B25C2133FD3600FA6B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE9B25A2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal */,
+				5AE9B2722133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests */,
+				5AE9B27D2133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE9B2592133FD3600FA6B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE9B26B2133FD3700FA6B39 /* LaunchScreen.storyboard in Resources */,
+				5AE9B2682133FD3700FA6B39 /* Assets.xcassets in Resources */,
+				5AE9B2662133FD3600FA6B39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE9B2712133FD3800FA6B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE9B27C2133FD3800FA6B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE9B2572133FD3600FA6B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE9B2632133FD3600FA6B39 /* ViewController.m in Sources */,
+				5AE9B26E2133FD3700FA6B39 /* main.m in Sources */,
+				5AE9B2602133FD3600FA6B39 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE9B26F2133FD3800FA6B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE9B2782133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE9B27A2133FD3800FA6B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE9B2832133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE9B2752133FD3800FA6B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE9B25A2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal */;
+			targetProxy = 5AE9B2742133FD3800FA6B39 /* PBXContainerItemProxy */;
+		};
+		5AE9B2802133FD3800FA6B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE9B25A2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal */;
+			targetProxy = 5AE9B27F2133FD3800FA6B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE9B2642133FD3600FA6B39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE9B2652133FD3600FA6B39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE9B2692133FD3700FA6B39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE9B26A2133FD3700FA6B39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE9B2852133FD3800FA6B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AE9B2862133FD3800FA6B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE9B2882133FD3800FA6B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestRACChannelAndRACChannelTerminal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ys.TestRACChannelAndRACChannelTerminal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE9B2892133FD3800FA6B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestRACChannelAndRACChannelTerminal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ys.TestRACChannelAndRACChannelTerminal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE9B28B2133FD3800FA6B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestRACChannelAndRACChannelTerminalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ys.TestRACChannelAndRACChannelTerminalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestRACChannelAndRACChannelTerminal.app/TestRACChannelAndRACChannelTerminal";
+			};
+			name = Debug;
+		};
+		5AE9B28C2133FD3800FA6B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestRACChannelAndRACChannelTerminalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ys.TestRACChannelAndRACChannelTerminalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestRACChannelAndRACChannelTerminal.app/TestRACChannelAndRACChannelTerminal";
+			};
+			name = Release;
+		};
+		5AE9B28E2133FD3800FA6B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestRACChannelAndRACChannelTerminalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ys.TestRACChannelAndRACChannelTerminalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestRACChannelAndRACChannelTerminal;
+			};
+			name = Debug;
+		};
+		5AE9B28F2133FD3800FA6B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestRACChannelAndRACChannelTerminalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ys.TestRACChannelAndRACChannelTerminalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestRACChannelAndRACChannelTerminal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE9B2562133FD3600FA6B39 /* Build configuration list for PBXProject "TestRACChannelAndRACChannelTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE9B2852133FD3800FA6B39 /* Debug */,
+				5AE9B2862133FD3800FA6B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE9B2872133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE9B2882133FD3800FA6B39 /* Debug */,
+				5AE9B2892133FD3800FA6B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE9B28A2133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE9B28B2133FD3800FA6B39 /* Debug */,
+				5AE9B28C2133FD3800FA6B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE9B28D2133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE9B28E2133FD3800FA6B39 /* Debug */,
+				5AE9B28F2133FD3800FA6B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE9B2532133FD3600FA6B39 /* Project object */;
+}
