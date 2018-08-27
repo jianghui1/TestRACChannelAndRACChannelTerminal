@@ -15,6 +15,7 @@
 		5AE9B26E2133FD3700FA6B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B26D2133FD3700FA6B39 /* main.m */; };
 		5AE9B2782133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B2772133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests.m */; };
 		5AE9B2832133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9B2822133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m */; };
+		610CAC62795EC0E180D3CB8A /* libPods-TestRACChannelAndRACChannelTerminalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A9743FE9A86C57C94C11B8 /* libPods-TestRACChannelAndRACChannelTerminalTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010FA66AFB1792B2C4341DD0 /* Pods-TestRACChannelAndRACChannelTerminalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACChannelAndRACChannelTerminalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACChannelAndRACChannelTerminalTests/Pods-TestRACChannelAndRACChannelTerminalTests.release.xcconfig"; sourceTree = "<group>"; };
+		15FABB51279999DDDD886DEA /* libPods-TestRACChannelAndRACChannelTerminal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACChannelAndRACChannelTerminal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE9B25B2133FD3600FA6B39 /* TestRACChannelAndRACChannelTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRACChannelAndRACChannelTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE9B25E2133FD3600FA6B39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE9B25F2133FD3600FA6B39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		5AE9B27E2133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRACChannelAndRACChannelTerminalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE9B2822133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACChannelAndRACChannelTerminalUITests.m; sourceTree = "<group>"; };
 		5AE9B2842133FD3800FA6B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0EDCC63DCB512F56E30182 /* Pods-TestRACChannelAndRACChannelTerminalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRACChannelAndRACChannelTerminalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRACChannelAndRACChannelTerminalTests/Pods-TestRACChannelAndRACChannelTerminalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A9743FE9A86C57C94C11B8 /* libPods-TestRACChannelAndRACChannelTerminalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRACChannelAndRACChannelTerminalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610CAC62795EC0E180D3CB8A /* libPods-TestRACChannelAndRACChannelTerminalTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A35B951217C67746CE4458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FABB51279999DDDD886DEA /* libPods-TestRACChannelAndRACChannelTerminal.a */,
+				D5A9743FE9A86C57C94C11B8 /* libPods-TestRACChannelAndRACChannelTerminalTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5AE9B2522133FD3600FA6B39 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,8 @@
 				5AE9B2762133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalTests */,
 				5AE9B2812133FD3800FA6B39 /* TestRACChannelAndRACChannelTerminalUITests */,
 				5AE9B25C2133FD3600FA6B39 /* Products */,
+				B07813B9EB28C8E5D775ADA5 /* Pods */,
+				02A35B951217C67746CE4458 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,15 @@
 			path = TestRACChannelAndRACChannelTerminalUITests;
 			sourceTree = "<group>";
 		};
+		B07813B9EB28C8E5D775ADA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EDCC63DCB512F56E30182 /* Pods-TestRACChannelAndRACChannelTerminalTests.debug.xcconfig */,
+				010FA66AFB1792B2C4341DD0 /* Pods-TestRACChannelAndRACChannelTerminalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AE9B28A2133FD3800FA6B39 /* Build configuration list for PBXNativeTarget "TestRACChannelAndRACChannelTerminalTests" */;
 			buildPhases = (
+				1511889B19E2921B2F53F732 /* [CP] Check Pods Manifest.lock */,
 				5AE9B26F2133FD3800FA6B39 /* Sources */,
 				5AE9B2702133FD3800FA6B39 /* Frameworks */,
 				5AE9B2712133FD3800FA6B39 /* Resources */,
@@ -256,6 +283,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1511889B19E2921B2F53F732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRACChannelAndRACChannelTerminalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AE9B2572133FD3600FA6B39 /* Sources */ = {
@@ -463,6 +515,7 @@
 		};
 		5AE9B28B2133FD3800FA6B39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0EDCC63DCB512F56E30182 /* Pods-TestRACChannelAndRACChannelTerminalTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +534,7 @@
 		};
 		5AE9B28C2133FD3800FA6B39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010FA66AFB1792B2C4341DD0 /* Pods-TestRACChannelAndRACChannelTerminalTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
