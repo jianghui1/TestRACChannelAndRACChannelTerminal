@@ -14,6 +14,26 @@
 
 @end
 
+@interface Model : NSObject
+
+@property (nonatomic, copy) NSString *name;
+
+@end
+
+@implementation Model
+
+@end
+
+@interface View : NSObject
+
+@property (nonatomic, copy) NSString *labelText;
+
+@end
+
+@implementation View
+
+@end
+
 @implementation TestRACChannelAndRACChannelTerminalTests
 
 - (void)test_channel1
@@ -284,6 +304,41 @@
     /*
      2018-08-27 18:08:59.462893+0800 TestRACChannelAndRACChannelTerminal[3236:4274939] channel -- leading -- error
      2018-08-27 18:08:59.466973+0800 TestRACChannelAndRACChannelTerminal[3236:4274939] channel -- following -- error
+     */
+}
+
+- (void)test_model_view
+{
+    Model *model = [[Model alloc] init];
+    model.name = @"model";
+    View *view = [[View alloc] init];
+    view.labelText = @"view";
+    
+    RACChannel *channel = [[RACChannel alloc] init];
+    [RACObserve(model, name) subscribe:channel.leadingTerminal];
+    [RACObserve(view, labelText) subscribe:channel.followingTerminal];
+    
+    [channel.leadingTerminal subscribeNext:^(id x) {
+        NSLog(@"model_view -- leading -- %@", x);
+    } error:^(NSError *error) {
+        NSLog(@"model_view -- leading -- error");
+    } completed:^{
+        NSLog(@"model_view -- leading -- completed");
+    }];
+    
+    [channel.followingTerminal subscribeNext:^(id x) {
+        NSLog(@"model_view -- following -- %@", x);
+    } error:^(NSError *error) {
+        NSLog(@"model_view -- following -- error");
+    } completed:^{
+        NSLog(@"model_view -- following -- completed");
+    }];
+    
+    // 打印日志：
+    /*
+     2018-09-08 18:30:09.141433+0800 TestRACChannelAndRACChannelTerminal[56945:12269466] model_view -- following -- model
+     2018-09-08 18:30:09.141923+0800 TestRACChannelAndRACChannelTerminal[56945:12269466] model_view -- following -- completed
+     2018-09-08 18:30:09.142076+0800 TestRACChannelAndRACChannelTerminal[56945:12269466] model_view -- leading -- completed
      */
 }
 
